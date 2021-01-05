@@ -72,5 +72,5 @@ if __name__  == "__main__":
     args = setup_arguments()
     setup_logging(args.debug, args.filename)
     TOKEN = import_token()
-    hack_bot.bot.add_cog(cogs.Quarantine(hack_bot, Q_START))
+    hack_bot.bot.add_cog(cogs.Hackspace(hack_bot))
     hack_bot.bot.run(TOKEN)
