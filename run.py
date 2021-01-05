@@ -16,7 +16,7 @@ def import_token():
     """
     try:
         import auth
-        return auth.DISCORD_HACKPSPACE_TOKEN
+        return auth.DISCORD_HACKSPACE_TOKEN
     except ImportError:
         try:
             import os
