@@ -19,4 +19,4 @@ async def on_ready():
     for guild in bot.guilds:
         logger.info(
             "%s is connected to the following guild: %s: (id: %s)", bot.user.name, guild.name, guild.id
-        )
+            )
